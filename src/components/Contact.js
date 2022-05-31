@@ -5,7 +5,10 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
 	return (
-		<div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-[70vh] bg-slate-800">
+		<div
+			id="contact"
+			className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-[70vh] bg-slate-800"
+		>
 			<div className="container relative mx-auto">
 				<div className="items-center flex flex-wrap">
 					<div className="w-full px-4 ml-auto mr-auto text-left">

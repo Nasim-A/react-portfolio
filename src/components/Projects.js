@@ -9,7 +9,10 @@ import weather from "../Projects/Weather.png";
 
 const Projects = () => {
 	return (
-		<div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-[70vh] bg-slate-900">
+		<div
+			id="projects"
+			className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-[70vh] bg-slate-900"
+		>
 			<div className="container relative mx-auto">
 				<div className="items-center flex flex-wrap">
 					<div className="w-full px-4 ml-auto mr-auto text-left">

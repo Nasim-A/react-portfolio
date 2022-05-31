@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { FaBars, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Navbar() {
@@ -32,36 +33,31 @@ function Navbar() {
 						id="example-navbar-danger"
 					>
 						<ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-							<li className="nav-item">
-								<a
-									className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-zinc-50 hover:opacity-75"
-									href="#0"
-								>
-									<i className="text-lg leading-lg text-zinc-50 opacity-75"></i>
-									<span className="ml-2">About</span>
-								</a>
+							<li>
+								<Link to="about" spy={true} smooth={true}>
+									<div className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-zinc-50 hover:opacity-75 hover:cursor-pointer">
+										About
+									</div>
+								</Link>
 							</li>
-							<li className="nav-item">
-								<a
-									className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-zinc-50 hover:opacity-75"
-									href="#0"
-								>
-									<i className="text-lg leading-lg text-zinc-50 opacity-75"></i>
-									<span className="ml-2">Projects</span>
-								</a>
+							<li>
+								<Link to="projects" spy={true} smooth={true}>
+									<div className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-zinc-50 hover:opacity-75 hover:cursor-pointer">
+										Projects
+									</div>
+								</Link>
 							</li>
-							<li className="nav-item">
-								<a
-									className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-zinc-50 hover:opacity-75"
-									href="#0"
-								>
-									<i className="text-lg leading-lg text-zinc-50 opacity-75"></i>
-									<span className="ml-2">Contact</span>
-								</a>
+							<li>
+								<Link to="contact" spy={true} smooth={true}>
+									<div className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-zinc-50 hover:opacity-75 hover:cursor-pointer">
+										Contact
+									</div>
+								</Link>
 							</li>
+
 							<li className="nav-item">
 								<a
-									className="px-3 py-2 flex items-center text-xl uppercase font-bold leading-snug text-zinc-50 hover:opacity-75"
+									className="px-3 py-2 flex items-center text-xl uppercase font-bold leading-snug text-zinc-50 hover:opacity-75 mt-[-3px]"
 									href="https://www.linkedin.com/in/nasimahmed108/"
 								>
 									<i className="text-lg leading-lg text-zinc-50 opacity-75"></i>
@@ -72,7 +68,7 @@ function Navbar() {
 							</li>
 							<li className="nav-item">
 								<a
-									className="px-3 py-2 flex items-center text-xl uppercase font-bold leading-snug text-zinc-50 hover:opacity-75"
+									className="px-3 py-2 flex items-center text-xl uppercase font-bold leading-snug text-zinc-50 hover:opacity-75 mt-[-3px]"
 									href="https://github.com/Nasim-A"
 								>
 									<i className="text-lg leading-lg text-zinc-50 opacity-75"></i>
