@@ -3,8 +3,8 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Home = () => {
 	return (
-		<div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-[70vh]">
-			<div className="container relative mx-auto">
+		<div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-[75vh]">
+			<div className="container relative mx-auto mt-32">
 				<div className="items-center flex flex-wrap">
 					<div className="w-full px-4 ml-auto mr-auto text-center">
 						<div className="pr-12">
