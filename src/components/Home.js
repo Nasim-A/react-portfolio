@@ -1,4 +1,5 @@
 import React from "react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Home = () => {
 	return (
@@ -16,9 +17,14 @@ const Home = () => {
 							<p className="mt-4 text-lg text-gray-300">
 								I build websites with React and Tailwind CSS
 							</p>
-							<p className="mt-4 text-lg text-gray-300">
-								Connect with me on LinkedIn or check out my GitHub
-							</p>
+							<div className="flex text-5xl mt-4">
+								<a href="https://www.linkedin.com/in/nasimahmed108/">
+									<FaLinkedin className="mr-4 hover:text-fuchsia-500" />
+								</a>
+								<a href="https://github.com/Nasim-A">
+									<FaGithub className="ml-4 hover:text-fuchsia-500" />
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
