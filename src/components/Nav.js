@@ -35,21 +35,21 @@ function Navbar() {
 						<ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
 							<li>
 								<Link to="about" spy={true} smooth={true}>
-									<div className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-zinc-50 hover:opacity-75 hover:cursor-pointer">
+									<div className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-zinc-50 hover:text-fuchsia-500 hover:cursor-pointer">
 										About
 									</div>
 								</Link>
 							</li>
 							<li>
 								<Link to="projects" spy={true} smooth={true}>
-									<div className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-zinc-50 hover:opacity-75 hover:cursor-pointer">
+									<div className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-zinc-50 hover:text-fuchsia-500 hover:cursor-pointer">
 										Projects
 									</div>
 								</Link>
 							</li>
 							<li>
 								<Link to="contact" spy={true} smooth={true}>
-									<div className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-zinc-50 hover:opacity-75 hover:cursor-pointer">
+									<div className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-zinc-50 hover:text-fuchsia-500 hover:cursor-pointer">
 										Contact
 									</div>
 								</Link>
@@ -57,7 +57,7 @@ function Navbar() {
 
 							<li className="nav-item">
 								<a
-									className="px-3 py-2 flex items-center text-xl uppercase font-bold leading-snug text-zinc-50 hover:opacity-75 mt-[-3px]"
+									className="px-3 py-2 flex items-center text-xl uppercase font-bold leading-snug text-zinc-50 hover:text-fuchsia-500 mt-[-3px]"
 									href="https://www.linkedin.com/in/nasimahmed108/"
 								>
 									<i className="text-lg leading-lg text-zinc-50 opacity-75"></i>
@@ -68,7 +68,7 @@ function Navbar() {
 							</li>
 							<li className="nav-item">
 								<a
-									className="px-3 py-2 flex items-center text-xl uppercase font-bold leading-snug text-zinc-50 hover:opacity-75 mt-[-3px]"
+									className="px-3 py-2 flex items-center text-xl uppercase font-bold leading-snug text-zinc-50 hover:text-fuchsia-500 mt-[-3px]"
 									href="https://github.com/Nasim-A"
 								>
 									<i className="text-lg leading-lg text-zinc-50 opacity-75"></i>
