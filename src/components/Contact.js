@@ -24,10 +24,10 @@ const Contact = () => {
 									<p className="pt-8">
 										Reach out to me by sending an email to{" "}
 										<a
-											href="mailto:nasimahmed108@gmail.com"
+											href="mailto:ahmednasim108@gmail.com"
 											className="text-fuchsia-500 hover:text-fuchsia-300"
 										>
-											nasimahmed108@gmail.com
+											ahmednasim108@gmail.com
 										</a>{" "}
 										or connect with me on{" "}
 										<a
