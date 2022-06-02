@@ -6,7 +6,7 @@ const Home = () => {
 		<div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-[75vh]">
 			<div className="container relative mx-auto mt-32">
 				<div className="items-center flex flex-wrap">
-					<div className="w-full px-4 ml-auto mr-auto text-center">
+					<div className="w-full px-4 mx-auto text-left">
 						<div className="pr-12">
 							<h1 className="text-zinc-50 font-semibold text-5xl md:text-9xl">
 								Hey, I'm <span className="text-fuchsia-500">Nasim</span>
@@ -17,7 +17,7 @@ const Home = () => {
 							<p className="mt-4 text-lg text-zinc-50">
 								I build websites with React and Tailwind CSS
 							</p>
-							<div className="flex justify-center text-5xl mt-4 text-zinc-50">
+							<div className="flex text-5xl mt-4 text-zinc-50">
 								<a href="https://www.linkedin.com/in/nasimahmed108/">
 									<FaLinkedin className="mr-4 hover:text-fuchsia-500" />
 								</a>
