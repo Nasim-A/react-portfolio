@@ -15,7 +15,7 @@ const About = () => {
 							<SectionTitle text={"About"} />
 
 							<div className="flex mt-4">
-								<div className="text-gray-300 flex-1 flex-col mt-4 mr-4 text-lg">
+								<div className="text-gray-300 flex-1 flex-col mt-4 mr-4 text-base md:text-lg">
 									<SectionHeading text={"Who am I"} />
 									<p className="pt-8">
 										I'm Nasim. Web development has been an interest of mine for
@@ -34,7 +34,7 @@ const About = () => {
 										</a>
 									</p>
 								</div>
-								<div className="text-gray-300 flex-1 flex-col mt-4 ml-4 text-lg">
+								<div className="text-gray-300 flex-1 flex-col mt-4 ml-4 text-base md:text-lg">
 									<SectionHeading text={"Skills and Tools"} />
 									<p className="pt-8">
 										JavaScript, React, HTML, CSS/SCSS, TailwindCSS
